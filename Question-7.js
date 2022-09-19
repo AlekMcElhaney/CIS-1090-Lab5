@@ -1,8 +1,6 @@
-//Set up
-let i = 0;
 
-//The condition is in parenthesis:
-while ( i < 10 ){
-    console.log(i);
-    i++; //Increment i after each step
+let i = 1;
+for ( let i= 1; i < 10; i++) {
+    console.log("Counting", i);
+    i++; //
 }
